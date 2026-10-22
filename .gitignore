@@ -1,0 +1,38 @@
+# Swift Package Manager
+.build/
+.swiftpm/
+Package.resolved
+
+# Xcode user and local state
+xcuserdata/
+*.xcuserstate
+*.xcscmblueprint
+DerivedData/
+
+# macOS metadata
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Release artifacts and local exports
+dist/
+build/
+*.app
+*.dmg
+*.zip
+*.pkg
+
+# Local evidence, reports, and scan output
+local-evidence/
+.playwright-cli/
+reports/
+*.scan.json
+*.report.json
+
+# Signing and local developer files
+*.p12
+*.cer
+*.mobileprovision
+.env
+.env.*
+!.env.example
